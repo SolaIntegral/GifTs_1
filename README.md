@@ -90,6 +90,40 @@ npm run dev
 npm run type-check
 ```
 
+## GitHub Pages での公開
+
+このプロジェクトはGitHub Pagesで公開するように設定されています。
+
+### 公開手順
+
+1. **GitHubリポジトリの作成**
+   - GitHubで新しいリポジトリを作成
+   - リポジトリ名を `GifTs_1` に設定（または `vite.config.ts` の `base` パスを変更）
+
+2. **コードのプッシュ**
+   ```bash
+   git init
+   git add .
+   git commit -m "Initial commit"
+   git branch -M main
+   git remote add origin https://github.com/YOUR_USERNAME/GifTs_1.git
+   git push -u origin main
+   ```
+
+3. **GitHub Pagesの設定**
+   - リポジトリの「Settings」→「Pages」に移動
+   - Source を「GitHub Actions」に設定
+
+4. **自動デプロイ**
+   - `main`ブランチにプッシュすると、自動的にGitHub Actionsが実行され、GitHub Pagesにデプロイされます
+   - デプロイ完了後、`https://YOUR_USERNAME.github.io/GifTs_1/` でアクセス可能
+
+### 手動デプロイ
+
+```bash
+npm run deploy
+```
+
 ## ライセンス
 
 このプロジェクトはGifTsの一部として開発されています。
