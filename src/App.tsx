@@ -30,11 +30,11 @@ export default function App() {
     {
       id: 'slide-1',
       type: 'news',
-      title: '軽井沢PJメンバー\n学生参加者募集中',
-      content: 'GifTsでは、軽井沢を拠点とした新しいプロジェクトを始動します。地域と共に成長し、革新的な取り組みにチャレンジしたいメンバーを募集しています。',
-      subContent: '自然豊かな環境で、新しい働き方とクリエイティブな活動を一緒に創造しませんか？',
+      title: '軽井沢地域活性化プロジェクト\n4th season学生参加者募集中',
+      content: '2026年3月に予定している軽井沢地域活性化プロジェクト4th seasonの学生参加者募集を開始しました。社会人、他大学の学生、先輩とチームを組み、軽井沢に関する課題解決立案を行う計5日間のプロジェクトです。',
+      subContent: '募集人数：10名程度（2026年1月時点で大学1、2年生または修士課程進学予定の大学3、4年生）\n募集期間：2025年10月1日～10月31日\n将来のキャリアにつながる経験がしたい方、地方創生に興味がある方、ぜひご応募お待ちしております！',
       link: 'https://sites.google.com/view/gifts-foryou/4thentry_student',
-      linkText: '詳細を見る',
+      linkText: '応募フォームはこちら',
       badge: 'NEW',
       bgGradient: 'from-red-50 to-orange-50'
     },
