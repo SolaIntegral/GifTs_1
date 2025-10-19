@@ -50,8 +50,8 @@ export default function App() {
       id: 'slide-3',
       type: 'team',
       title: 'デジタル広報チーム',
-      content: 'OURA Sora / 大浦 空が所属するデジタル広報チームです。',
-      subContent: '最新のデジタル技術とクリエイティブな発想で、GifTsの魅力を世界に発信しています。',
+      content: 'デジタル広報チームは、GifTsと社会をつなぐ架け橋です。SNSやWebサイト、動画、フライヤーなど、さまざまなデジタルメディアを通じて、活動の魅力や価値をわかりやすく発信します。',
+      subContent: 'その使命は、情報を見える形にして、人の心を動かすこと。チームの創造力を活かしながら、発信戦略の立案からコンテンツ制作、効果検証まで一貫して担い、共感とつながりを広げています。',
       bgGradient: 'from-purple-50 to-pink-50'
     },
     {
@@ -287,21 +287,10 @@ export default function App() {
                         {/* Slide 3: Team Info */}
                         {slide.type === 'team' && (
                           <div className="flex flex-col justify-center h-full">
-                            <div className="mb-6">
-                              <div className="flex items-center gap-3 mb-4">
-                                <div className="w-16 h-16 rounded-full overflow-hidden bg-white shadow-md">
-                                  <img src={profileImage} alt="Profile" className="w-full h-full object-cover" />
-                                </div>
-                                <div>
-                                  <p className="text-sm text-gray-600">OURA Sora</p>
-                                  <p className="text-xs text-gray-500">大浦 空</p>
-                                </div>
-                              </div>
-                            </div>
-                            <h2 className="text-3xl mb-4" style={{ fontFamily: 'serif' }}>
+                            <h2 className="text-3xl mb-6" style={{ fontFamily: 'serif' }}>
                               {slide.title}
                             </h2>
-                            <p className="text-base leading-relaxed mb-3 text-gray-700">
+                            <p className="text-base leading-relaxed mb-4 text-gray-700">
                               {slide.content}
                             </p>
                             <p className="text-sm leading-relaxed text-gray-600">
