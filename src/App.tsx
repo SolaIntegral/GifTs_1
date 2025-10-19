@@ -22,7 +22,7 @@ export default function App() {
 
   const handleLinkClick = (url: string, linkName: string) => {
     console.log(`Navigating to: ${linkName} - ${url}`);
-    // In a real app: window.open(url, '_blank');
+    window.open(url, '_blank');
   };
 
   // カルーセルのスライド設定（4つのスライド）
