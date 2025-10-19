@@ -171,6 +171,7 @@ export default function App() {
               <span className="text-2xl">Sora</span>
             </div>
             <h1 className="text-5xl mb-2">大浦　空</h1>
+            <p className="text-2xl text-gray-600">デジタル広報チーム</p>
           </motion.div>
 
           {/* Personal Links - Icon buttons */}
