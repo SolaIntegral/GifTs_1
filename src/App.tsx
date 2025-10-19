@@ -42,8 +42,8 @@ export default function App() {
       id: 'slide-2',
       type: 'about',
       title: 'GifTsについて',
-      content: 'GifTsは、デジタル時代における新しいコミュニケーションを創造する組織です。',
-      subContent: '私たちデジタル広報チームは、革新的なアプローチで情報を発信し、多くの人々とつながりを築いています。',
+      content: 'GifTs（Glocal Innovator & Future Talent Society）は、地域の課題解決を通じて地域社会に貢献し、参加者の新たな才能を開花させることを目標とする団体です。',
+      subContent: '地域課題解決にグローバルな視点を取り入れることで、グローバル人材を輩出することを目指しています。学生と社会人がフェアでフラットな関係を構築し、共に成長できる環境を大切にしています。',
       bgGradient: 'from-blue-50 to-green-50'
     },
     {
